@@ -279,4 +279,48 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['vu'] = {
+        label = 'Vanilla Unicorn',
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = 'Trainee',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Employee',
+                payment = 75
+            },
+            ['2'] = {
+                name = 'Management',
+                isboss = true,
+                payment = 100
+            },
+        },
+    },
+    ["uwu"] = { --  UwU Cafe Job
+		label = "UwU Cafe",
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = "Kassier",
+                payment = 100
+            },
+			['1'] = {
+                name = "Kok",
+				isboss = true,
+                payment = 250
+            },
+			['2'] = {
+                name = "Manager",
+				isboss = true,
+                payment = 350
+            },
+			['3'] = {
+                name = "Winkel Eigenaar",
+				isboss = true,
+                payment = 500
+            },
+        },
+	},
 }
