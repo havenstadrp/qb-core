@@ -33,7 +33,7 @@ QBConfig.Server.closedReason = "Server Closed" -- Reason message to display when
 QBConfig.Server.uptime = 0 -- Time the server has been up.
 QBConfig.Server.whitelist = false -- Enable or disable whitelist on the server
 QBConfig.Server.pvp = true -- Enable or disable pvp on the server (Ability to shoot other players)
-QBConfig.Server.discord = "" -- Discord invite link
+QBConfig.Server.discord = "https://discord.gg/kYTDZc5mnG" -- Discord invite link
 QBConfig.Server.PermissionList = {} -- permission list
 
 QBConfig.Notify = {}
