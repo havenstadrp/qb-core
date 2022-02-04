@@ -4677,6 +4677,15 @@ QBShared.Vehicles = {
 		['hash'] = `wildtrak`,
 		['shop'] = 'cardoen',
 	},
+	['ffrs'] = {
+		['name'] = '2009 Ford Focus RS',
+		['brand'] = 'ford',
+		['model'] = 'ffrs',
+		['price'] = 32000,
+		['category'] = 'ford',
+		['hash'] = `ffrs`,
+		['shop'] = 'cardoen',
+	},
 
 	--honda
 	
