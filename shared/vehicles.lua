@@ -5662,7 +5662,7 @@ QBShared.Vehicles = {
 		['shop'] = 'motor',
 	},
 
-}
+
 	-- Boats
 	['squalo'] = {
 		['name'] = 'Squalo',
