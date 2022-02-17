@@ -5296,7 +5296,7 @@ QBShared.Vehicles = {
 
 	['agerars'] = {
 		['name'] = '2017 Koenigsegg Agera RS',
-		['brand'] = 'koenigsegg',
+		['brand'] = 'koeningsegg',
 		['model'] = 'agerars',
 		['price'] = 2.000000,
 		['category'] = 'koenigsegg',
@@ -5305,7 +5305,7 @@ QBShared.Vehicles = {
 	},
 	['regera'] = {
 		['name'] = 'Koenigsegg Regera',
-		['brand'] = 'koenigsegg',
+		['brand'] = 'koeningsegg',
 		['model'] = 'regera',
 		['price'] = 3.000000,
 		['category'] = 'koenigsegg',
@@ -5314,7 +5314,7 @@ QBShared.Vehicles = {
 	},
 	['gxone'] = {
 		['name'] = 'koenigsegg one 1',
-		['brand'] = 'koenigsegg',
+		['brand'] = 'koeningsegg',
 		['model'] = 'gxone',
 		['price'] = 1500000,
 		['category'] = 'koenigsegg',
