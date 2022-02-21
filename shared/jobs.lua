@@ -124,7 +124,7 @@ QBShared.Jobs = {
             },
         },
 	},
-     ['bus'] = {
+    ['bus'] = {
 		label = 'Bus',
 		defaultDuty = true,
 		offDutyPay = false,
@@ -320,6 +320,33 @@ QBShared.Jobs = {
                 name = "Winkel Eigenaar",
 				isboss = true,
                 payment = 500
+            },
+        },
+	},
+    ["burgershot"] = {
+		label = "Burgershot Employee",
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = "Trainee",
+                payment = 50
+            },
+			['1'] = {
+                name = "Employee",
+                payment = 75
+            },
+			['2'] = {
+                name = "Burger Flipper",
+                payment = 100
+            },
+			['3'] = {
+                name = "Manager",
+                payment = 125
+            },
+			['4'] = {
+                name = "CEO",
+				isboss = true,
+                payment = 150
             },
         },
 	},
