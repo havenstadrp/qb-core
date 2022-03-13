@@ -350,4 +350,120 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['government'] = {
+        label = 'Government',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'City Attorney',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Development Director',
+                payment = 75
+            },
+            ['2'] = {
+                name = 'Finance Director',
+                payment = 100
+            },
+            ['3'] = {
+                name = 'Assistant Governor',
+                payment = 125
+            },
+            ['4'] = {
+                name = 'Governor',
+                isboss = true,
+                payment = 150
+            },
+        },
+    },
+
+    -- 710-econSystem
+    ['courthouse'] = {
+        label = 'Courthouse',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Clerk',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Stenographer',
+                payment = 75
+            },
+            ['2'] = {
+                name = 'Bailiff',
+                payment = 100
+            },
+            ['3'] = {
+                name = 'Judicial Assistant',
+                payment = 125
+            },
+            ['4'] = {
+                name = 'Judge',
+                isboss = true,
+                payment = 150
+            },
+        },
+    },
+    -- 710-pizza
+    ["lspizza"] = {
+		label = "LS Pizza",
+		defaultDuty = true,
+		bossmenu = vector3(-342.291, -133.370, 0.009),
+		grades = {
+            ['0'] = {
+                name = "In Training",
+                payment = 2500
+            },
+			['1'] = {
+                name = "Cook",
+                payment = 3500
+            },
+			['2'] = {
+                name = "Cashier",
+                payment = 4500
+            },
+			['3'] = {
+                name = "Supervisor",
+                payment = 5000
+            },
+			['4'] = {
+                name = "Manager",
+				isboss = true,
+                payment = 5500
+            },
+        },
+	},
+    -- 710-timmies
+    ["timmies"] = {
+		label = "Tim Hortons",
+		defaultDuty = true,
+		bossmenu = vector3(-342.291, -133.370, 39.009),
+		grades = {
+            ['0'] = {
+                name = "In Training",
+                payment = 2500
+            },
+			['1'] = {
+                name = "Baker",
+                payment = 3500
+            },
+			['2'] = {
+                name = "Cashier",
+                payment = 4500
+            },
+			['3'] = {
+                name = "Supervisor",
+                payment = 5000
+            },
+			['4'] = {
+                name = "Manager",
+				isboss = true,
+                payment = 5500
+            },
+        },
+	},
 }
