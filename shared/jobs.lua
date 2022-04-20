@@ -2,27 +2,27 @@ QBShared = QBShared or {}
 QBShared.ForceJobDefaultDutyAtLogin = true -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
 QBShared.Jobs = {
 	['unemployed'] = {
-		label = 'Civilian',
+		label = 'Burger',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Freelancer',
+                name = 'Toerist',
                 payment = 10
             },
         },
 	},
 	['police'] = {
-		label = 'Law Enforcement',
+		label = 'Politie',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Aspirant',
                 payment = 50
             },
 			['1'] = {
-                name = 'Officer',
+                name = 'Agent',
                 payment = 75
             },
 			['2'] = {
@@ -30,63 +30,63 @@ QBShared.Jobs = {
                 payment = 100
             },
 			['3'] = {
-                name = 'Lieutenant',
+                name = 'Inspecteur',
                 payment = 125
             },
 			['4'] = {
-                name = 'Chief',
+                name = 'Hoofd Commisaris',
 				isboss = true,
                 payment = 150
             },
         },
 	},
 	['ambulance'] = {
-		label = 'EMS',
+		label = 'Ambulance',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Stagair',
                 payment = 50
             },
 			['1'] = {
-                name = 'Paramedic',
+                name = 'Ambulancier',
                 payment = 75
             },
 			['2'] = {
-                name = 'Doctor',
+                name = 'Dokter',
                 payment = 100
             },
 			['3'] = {
-                name = 'Surgeon',
+                name = 'Chirurg',
                 payment = 125
             },
 			['4'] = {
-                name = 'Chief',
+                name = 'Hoofdarts',
 				isboss = true,
                 payment = 150
             },
         },
 	},
 	['realestate'] = {
-		label = 'Real Estate',
+		label = 'Immotheek',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Stagair',
                 payment = 50
             },
 			['1'] = {
-                name = 'House Sales',
+                name = 'Huisverkoper',
                 payment = 75
             },
 			['2'] = {
-                name = 'Business Sales',
+                name = 'Bedrijvenverkoper',
                 payment = 100
             },
 			['3'] = {
-                name = 'Broker',
+                name = 'Makelaar',
                 payment = 125
             },
 			['4'] = {
@@ -102,19 +102,19 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Stagair',
                 payment = 50
             },
 			['1'] = {
-                name = 'Driver',
+                name = 'Chauffeur',
                 payment = 75
             },
 			['2'] = {
-                name = 'Event Driver',
+                name = 'Evenement Chauffeur',
                 payment = 100
             },
 			['3'] = {
-                name = 'Sales',
+                name = 'Verkoper',
                 payment = 125
             },
 			['4'] = {
@@ -130,30 +130,30 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Driver',
+                name = 'Chauffeur',
                 payment = 50
             },
 		},
 	},
 	['cardealer'] = {
-		label = 'Vehicle Dealer',
+		label = 'Wagendealer',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Stagair',
                 payment = 50
             },
 			['1'] = {
-                name = 'Showroom Sales',
+                name = 'Showroomverkoper',
                 payment = 75
             },
 			['2'] = {
-                name = 'Business Sales',
+                name = 'Bedrijvenverkoper',
                 payment = 100
             },
 			['3'] = {
-                name = 'Finance',
+                name = 'CFO',
                 payment = 125
             },
 			['4'] = {
@@ -164,12 +164,12 @@ QBShared.Jobs = {
         },
 	},
 	['mechanic'] = {
-		label = 'Mechanic',
+		label = 'VAB',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Stagair',
                 payment = 50
             },
 			['1'] = {
@@ -192,23 +192,23 @@ QBShared.Jobs = {
         },
 	},
 	['judge'] = {
-		label = 'Honorary',
+		label = 'Rechtbank',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Judge',
+                name = 'Rechter',
                 payment = 100
             },
         },
 	},
 	['lawyer'] = {
-		label = 'Law Firm',
+		label = 'Advocatenkantoor',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Associate',
+                name = 'Advocaat',
                 payment = 50
             },
         },
@@ -230,35 +230,35 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Driver',
+                name = 'Chauffeur',
                 payment = 50
             },
         },
 	},
 	['tow'] = {
-		label = 'Towing',
+		label = 'Takeldienst',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Driver',
+                name = 'Chauffeur',
                 payment = 50
             },
         },
 	},
 	['garbage'] = {
-		label = 'Garbage',
+		label = 'Vuilkar',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Collector',
+                name = 'Vuilnisophaler',
                 payment = 50
             },
         },
 	},
 	['vineyard'] = {
-		label = 'Vineyard',
+		label = 'Wijngaard',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -274,7 +274,7 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Sales',
+                name = 'Verkoper',
                 payment = 50
             },
         },
@@ -284,11 +284,11 @@ QBShared.Jobs = {
         defaultDuty = true,
         grades = {
             ['0'] = {
-                name = 'Trainee',
+                name = 'Stagair',
                 payment = 50
             },
             ['1'] = {
-                name = 'Employee',
+                name = 'Werknemer',
                 payment = 75
             },
             ['2'] = {
@@ -324,15 +324,15 @@ QBShared.Jobs = {
         },
 	},
     ["burgershot"] = {
-		label = "Burgershot Employee",
+		label = "Burgershot",
 		defaultDuty = true,
 		grades = {
             ['0'] = {
-                name = "Trainee",
+                name = "Stagair",
                 payment = 50
             },
 			['1'] = {
-                name = "Employee",
+                name = "Werknemer",
                 payment = 75
             },
 			['2'] = {
@@ -351,28 +351,28 @@ QBShared.Jobs = {
         },
 	},
     ['government'] = {
-        label = 'Government',
+        label = 'Overheid',
         defaultDuty = true,
         offDutyPay = false,
         grades = {
             ['0'] = {
-                name = 'City Attorney',
+                name = 'Stadsadvocaat',
                 payment = 50
             },
             ['1'] = {
-                name = 'Development Director',
+                name = 'Ontwikkelingsdirecteur',
                 payment = 75
             },
             ['2'] = {
-                name = 'Finance Director',
+                name = 'Financieel directeur',
                 payment = 100
             },
             ['3'] = {
-                name = 'Assistant Governor',
+                name = 'Adjunct-gouverneur',
                 payment = 125
             },
             ['4'] = {
-                name = 'Governor',
+                name = 'Gouverneur',
                 isboss = true,
                 payment = 150
             },
