@@ -19,24 +19,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Aspirant',
-                payment = 50
+                payment = 75
             },
 			['1'] = {
                 name = 'Agent',
-                payment = 75
+                payment = 100
             },
 			['2'] = {
                 name = 'Sergeant',
-                payment = 100
+                payment = 175
             },
 			['3'] = {
                 name = 'Inspecteur',
-                payment = 125
+                payment = 200
             },
 			['4'] = {
                 name = 'Hoofd Commisaris',
 				isboss = true,
-                payment = 150
+                payment = 300
             },
         },
 	},
@@ -47,24 +47,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Stagair',
-                payment = 50
+                payment = 75
             },
 			['1'] = {
                 name = 'Ambulancier',
-                payment = 75
+                payment = 100
             },
 			['2'] = {
                 name = 'Dokter',
-                payment = 100
+                payment = 175
             },
 			['3'] = {
                 name = 'Chirurg',
-                payment = 125
+                payment = 200
             },
 			['4'] = {
                 name = 'Hoofdarts',
 				isboss = true,
-                payment = 150
+                payment = 300
             },
         },
 	},
@@ -83,16 +83,16 @@ QBShared.Jobs = {
             },
 			['2'] = {
                 name = 'Bedrijvenverkoper',
-                payment = 100
+                payment = 170
             },
 			['3'] = {
                 name = 'Makelaar',
-                payment = 125
+                payment = 200
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 250
             },
         },
 	},
@@ -154,12 +154,12 @@ QBShared.Jobs = {
             },
 			['3'] = {
                 name = 'CFO',
-                payment = 125
+                payment = 175
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 250
             },
         },
 	},
@@ -173,21 +173,21 @@ QBShared.Jobs = {
                 payment = 50
             },
 			['1'] = {
-                name = 'Novice',
+                name = 'Mechanieker',
                 payment = 75
             },
 			['2'] = {
-                name = 'Experienced',
-                payment = 100
+                name = 'Senoir Mechanieker',
+                payment = 175
             },
 			['3'] = {
-                name = 'Advanced',
-                payment = 125
+                name = 'Ploegbaas',
+                payment = 200
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 275
             },
         },
 	},
@@ -198,7 +198,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Rechter',
-                payment = 100
+                payment = 200
             },
         },
 	},
@@ -209,7 +209,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Advocaat',
-                payment = 50
+                payment = 200
             },
         },
 	},
@@ -220,7 +220,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Journalist',
-                payment = 50
+                payment = 125
             },
         },
 	},
@@ -231,7 +231,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Chauffeur',
-                payment = 50
+                payment = 150
             },
         },
 	},
@@ -242,7 +242,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Chauffeur',
-                payment = 50
+                payment = 150
             },
         },
 	},
@@ -253,7 +253,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Vuilnisophaler',
-                payment = 50
+                payment = 100
             },
         },
 	},
@@ -263,8 +263,8 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Picker',
-                payment = 50
+                name = 'Plukker',
+                payment = 100
             },
         },
 	},
@@ -275,7 +275,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Verkoper',
-                payment = 50
+                payment = 100
             },
         },
 	},
@@ -285,16 +285,16 @@ QBShared.Jobs = {
         grades = {
             ['0'] = {
                 name = 'Stagair',
-                payment = 50
+                payment = 75
             },
             ['1'] = {
                 name = 'Werknemer',
-                payment = 75
+                payment = 175
             },
             ['2'] = {
                 name = 'Management',
                 isboss = true,
-                payment = 100
+                payment = 200
             },
         },
     },
@@ -303,23 +303,26 @@ QBShared.Jobs = {
 		defaultDuty = true,
 		grades = {
             ['0'] = {
-                name = "Kassier",
-                payment = 100
+                name = "Stagair",
+                payment = 50
             },
-			['1'] = {
-                name = "Kok",
-				isboss = true,
-                payment = 250
+            ['1'] = {
+                name = "Kassier",
+                payment = 75
             },
 			['2'] = {
-                name = "Manager",
-				isboss = true,
-                payment = 350
+                name = "Kok",
+                payment = 100
             },
 			['3'] = {
-                name = "Winkel Eigenaar",
+                name = "Manager",
 				isboss = true,
-                payment = 500
+                payment = 150
+            },
+			['4'] = {
+                name = "Winkeleigenaar",
+				isboss = true,
+                payment = 200
             },
         },
 	},
@@ -341,12 +344,12 @@ QBShared.Jobs = {
             },
 			['3'] = {
                 name = "Manager",
-                payment = 125
+                payment = 150
             },
 			['4'] = {
-                name = "CEO",
+                name = "Winkeleigenaar",
 				isboss = true,
-                payment = 150
+                payment = 200
             },
         },
 	},
@@ -357,24 +360,24 @@ QBShared.Jobs = {
         grades = {
             ['0'] = {
                 name = 'Stadsadvocaat',
-                payment = 50
+                payment = 75
             },
             ['1'] = {
                 name = 'Ontwikkelingsdirecteur',
-                payment = 75
+                payment = 100
             },
             ['2'] = {
                 name = 'Financieel directeur',
-                payment = 100
+                payment = 175
             },
             ['3'] = {
                 name = 'Adjunct-gouverneur',
-                payment = 125
+                payment = 200
             },
             ['4'] = {
                 name = 'Gouverneur',
                 isboss = true,
-                payment = 150
+                payment = 300
             },
         },
     },
@@ -386,84 +389,26 @@ QBShared.Jobs = {
         offDutyPay = false,
         grades = {
             ['0'] = {
-                name = 'Clerk',
+                name = 'Griffier',
                 payment = 50
             },
             ['1'] = {
-                name = 'Stenographer',
+                name = 'Stenograaf',
                 payment = 75
             },
             ['2'] = {
-                name = 'Bailiff',
-                payment = 100
+                name = 'Deurwaarder',
+                payment = 175
             },
             ['3'] = {
-                name = 'Judicial Assistant',
-                payment = 125
+                name = 'Gerechtelijk Assistent',
+                payment = 200
             },
             ['4'] = {
-                name = 'Judge',
+                name = 'Rechter',
                 isboss = true,
-                payment = 150
+                payment = 300
             },
         },
     },
-    -- 710-pizza
-    ["lspizza"] = {
-		label = "LS Pizza",
-		defaultDuty = true,
-		bossmenu = vector3(-342.291, -133.370, 0.009),
-		grades = {
-            ['0'] = {
-                name = "In Training",
-                payment = 2500
-            },
-			['1'] = {
-                name = "Cook",
-                payment = 3500
-            },
-			['2'] = {
-                name = "Cashier",
-                payment = 4500
-            },
-			['3'] = {
-                name = "Supervisor",
-                payment = 5000
-            },
-			['4'] = {
-                name = "Manager",
-				isboss = true,
-                payment = 5500
-            },
-        },
-	},
-    -- 710-timmies
-    ["timmies"] = {
-		label = "Tim Hortons",
-		defaultDuty = true,
-		bossmenu = vector3(-342.291, -133.370, 39.009),
-		grades = {
-            ['0'] = {
-                name = "In Training",
-                payment = 2500
-            },
-			['1'] = {
-                name = "Baker",
-                payment = 3500
-            },
-			['2'] = {
-                name = "Cashier",
-                payment = 4500
-            },
-			['3'] = {
-                name = "Supervisor",
-                payment = 5000
-            },
-			['4'] = {
-                name = "Manager",
-				isboss = true,
-                payment = 5500
-            },
-        },
-	},
 }
