@@ -411,4 +411,24 @@ QBShared.Jobs = {
             },
         },
     },
+
+    -- White Widow job
+    ["whitewidow"] = {
+        label = "White Widow",
+        defaultDuty = false,
+        grades = {
+            ['0'] = {
+                name = 'Worker',
+                payment = 30,
+            },
+            ['1'] = {
+                name = 'Vice Boss',
+                payment = 70,
+            },
+            ['2'] = {
+                name = 'Boss',
+                payment = 130,
+            },
+        }
+    },
 }
