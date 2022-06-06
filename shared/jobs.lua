@@ -382,34 +382,26 @@ QBShared.Jobs = {
         },
     },
 
-    -- 710-econSystem
-    ['courthouse'] = {
-        label = 'Courthouse',
-        defaultDuty = true,
+    -- Bean Machine
+    ["beanmachine"] = {
+        label = "Bean Machine",
         offDutyPay = false,
+        defaultDuty = false,
         grades = {
             ['0'] = {
-                name = 'Griffier',
-                payment = 50
+                name = 'Worker',
+                payment = 30,
             },
             ['1'] = {
-                name = 'Stenograaf',
-                payment = 75
+                name = 'Vice Boss',
+                payment = 70,
             },
             ['2'] = {
-                name = 'Deurwaarder',
-                payment = 175
-            },
-            ['3'] = {
-                name = 'Gerechtelijk Assistent',
-                payment = 200
-            },
-            ['4'] = {
-                name = 'Rechter',
+                name = 'Boss',
                 isboss = true,
-                payment = 300
+                payment = 130,
             },
-        },
+        }
     },
 
     -- White Widow job
