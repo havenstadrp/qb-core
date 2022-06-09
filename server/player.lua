@@ -296,9 +296,9 @@ function QBCore.Player.CreatePlayer(PlayerData)
         local totalWeight = QBCore.Player.GetTotalWeight(self.PlayerData.items)
         local itemInfo = QBCore.Shared.Items[item:lower()]
         local time = os.time()
-        if not created then 
+        if not created then
             itemInfo['created'] = time
-        else 
+        else
             itemInfo['created'] = created
         end
         -- itemInfo['created'] = time
