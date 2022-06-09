@@ -520,11 +520,11 @@ QBShared.Items = {
 	["cow_leather"]					 = {["name"] = "cow_leather",  	  				["label"] = "Cow Skin",	  				["weight"] = 50, 		["type"] = "item", 		["image"] = "cow_leather.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,	["created"] = nil, ["decay"] = 28.0,   ["description"] = ""},
 
 	-- Casino
-	["casino_redchip"] 				 = {["name"] = "casino_redchip", 				["label"] = "Casino Chip", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_redchip.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Inside Track Chip"}, 
-	["casino_whitechip"] 			 = {["name"] = "casino_whitechip", 			 	["label"] = "Casino Chip", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_whitechip.png", 	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Slot Machine Chip"},
-	["casino_bluechip"] 			 = {["name"] = "casino_bluechip", 			 	["label"] = "Casino Chip", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_bluechip.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Roulette Chip"},
-	["casino_blackchip"] 			 = {["name"] = "casino_blackchip", 			 	["label"] = "Casino Chip", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_blackchip.png", 	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Blackjack Chip"},
-	["casino_goldchip"] 			 = {["name"] = "casino_goldchip", 			 	["label"] = "Casino Chip", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_goldchip.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Chip"},
+	["casino_redchip"] 				 = {["name"] = "casino_redchip", 				["label"] = "Rode Casino Chip", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_redchip.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Inside Track Chip"}, 
+	["casino_whitechip"] 			 = {["name"] = "casino_whitechip", 			 	["label"] = "Witte Casino Chip", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_whitechip.png", 	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Slot Machine Chip"},
+	["casino_bluechip"] 			 = {["name"] = "casino_bluechip", 			 	["label"] = "Blauwe Casino Chip", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_bluechip.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Roulette Chip"},
+	["casino_blackchip"] 			 = {["name"] = "casino_blackchip", 			 	["label"] = "Zwarte Casino Chip", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_blackchip.png", 	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Blackjack Chip"},
+	["casino_goldchip"] 			 = {["name"] = "casino_goldchip", 			 	["label"] = "Goude Casino Chip", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "casino_goldchip.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Chip"},
 	["casino_member"] 				 = {["name"] = "casino_member", 			 	["label"] = "Casino Membership", 		["weight"] = 500, 		["type"] = "item", 		["image"] = "casino_member.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Member Card"},
 	["casino_vip"] 					 = {["name"] = "casino_vip", 			 	 	["label"] = "V.I.P Membership", 		["weight"] = 500, 		["type"] = "item", 		["image"] = "casino_vip.png", 			["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino V.I.P Card"},
 
@@ -698,5 +698,8 @@ QBShared.Items = {
 
 	-- qb-wheelchair
 	["wheelchair"] 				     = {["name"] = "wheelchair", 			 	 	["label"] = "wheelchair", 		    	["weight"] = 500, 		["type"] = "item", 		["image"] = "wheelchair.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,  ["description"] = "Crip Gang"},
+
+	-- qb-policebadge
+	["specialbadge"] 				 = {["name"] = "specialbadge", 			  		["label"] = "Police Badge", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "specialbadge.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Special Badge of Law Enforcements"},
 
 }
