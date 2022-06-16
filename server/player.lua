@@ -342,7 +342,7 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
         return self.PlayerData.money[moneytype]
     end
 
-    function self.Functions.AddItem(item, amount, slot, info, created)
+    function self.Functions.AddItem(item, amount, slot, info)
         local totalWeight = QBCore.Player.GetTotalWeight(self.PlayerData.items)
         local itemInfo = QBCore.Shared.Items[item:lower()]
         if not itemInfo and not self.Offline then
@@ -394,7 +394,6 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
         end
         return false
     end
-
     function self.Functions.RemoveItem(item, amount, slot)
         amount = tonumber(amount)
         slot = tonumber(slot)

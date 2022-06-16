@@ -608,7 +608,7 @@ QBShared.Items = {
 
 	-- Cigarettes
 	['pallmall'] 				    = {['name'] = 'pallmall', 				   	    ['label'] = 'Pallmall', 		        ['weight'] = 250, 		['type'] = 'item', 		['image'] = 'pallmall.png', 					['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ["combinable"] = nil,	["degrade"] = 1.0,	   ['description'] = 'Pack of Cigarettes, Made in USA'},
-	['lm'] 			        		= {['name'] = 'lm', 					        ['label'] = 'L&M',                  	['weight'] = 250, 		['type'] = 'item', 		['image'] = 'l&m.png', 		            		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ["combinable"] = nil,	["degrade"] = 1.0,	   ['description'] = 'Pack of Cigarettes, Made in USA'},
+	['lm'] 			        		= {['name'] = 'lm', 					        ['label'] = 'L&M',                  	['weight'] = 250, 		['type'] = 'item', 		['image'] = 'lm.png', 		            		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ["combinable"] = nil,	["degrade"] = 1.0,	   ['description'] = 'Pack of Cigarettes, Made in USA'},
 	['jps'] 				 	    = {['name'] = 'jps', 						    ['label'] = 'Jps', 		                ['weight'] = 250, 		['type'] = 'item', 		['image'] = 'jps.png', 			        		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ["combinable"] = nil,	["degrade"] = 1.0,	   ['description'] = 'Pack of Cigarettes, Made in USA'},
 	["cigarette"] 					= {["name"] = "cigarette",  	     			["label"] = "Cigarette",	 			["weight"] = 250, 		["type"] = "item", 		["image"] = "cigarette.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	["degrade"] = 1.0,	   ["description"] = "Smokeable Tobacco"},
 
@@ -705,8 +705,8 @@ QBShared.Items = {
 	["specialbadge"] 				 = {["name"] = "specialbadge", 			  		["label"] = "Politie badge", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "specialbadge.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Speciale badge van wetshandhavers"},
 
 	-- qb-bitmining
-	["standard_cpu"] 			 	 = {["name"] = "standard_cpu", 			  		["label"] = "Standard Cpu", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "standard_cpu.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},	
-	["e2_cpu"] 			 	 	 	 = {["name"] = "e2_cpu", 			  			["label"] = "E2", 						["weight"] = 1000, 		["type"] = "item", 		["image"] = "e2_cpu.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},	
+	["standard_cpu"] 			 	 = {["name"] = "standard_cpu", 			  		["label"] = "Standard Cpu", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "standard_cpu.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},
+	["e2_cpu"] 			 	 	 	 = {["name"] = "e2_cpu", 			  			["label"] = "E2", 						["weight"] = 1000, 		["type"] = "item", 		["image"] = "e2_cpu.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},
 	["quantum_cpu"] 			 	 = {["name"] = "quantum_cpu", 			  		["label"] = "Quantum", 					["weight"] = 1000, 		["type"] = "item", 		["image"] = "quantum_cpu.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},
 
 
