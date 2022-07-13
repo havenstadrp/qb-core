@@ -123,7 +123,7 @@ QBShared.Items = {
 	['weapon_petrolcan'] 			 = {['name'] = 'weapon_petrolcan', 		 	  	['label'] = 'Benzine kan', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PETROLCAN',		['image'] = 'weapon_petrolcan.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'Een robuuste vloeistofcontainer van geperst staal'},
 	['weapon_fireextinguisher'] 	 = {['name'] = 'weapon_fireextinguisher',      	['label'] = 'Brandblusser', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_fireextinguisher.png', 		['unique'] = true, 	['useable'] = false, 	['description'] = 'Een draagbaar apparaat dat een straal water, schuim, gas of ander materiaal afgeeft om een brand te blussen'},
 	['weapon_hazardcan']			 = {['name'] = 'weapon_hazardcan',				['label'] = 'Gevaarlijke Jerry Can',	['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PETROLCAN',		['image'] = 'weapon_hazardcan.png',				['unique'] = true, 		['useable'] = true, 	['description'] = 'Weapon Hazardcan'},
-	
+
 
 	-- PISTOL ATTACHMENTS
 	['pistol_defaultclip'] 			 = {['name'] = 'pistol_defaultclip', 			['label'] = 'Pistol Clip', 				['weight'] = 1000, 		['type'] = 'item', 												['image'] = 'pistol_extendedclip.png', 			['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ["combinable"] = nil,	   ['description'] = 'Pistol Default Clip'},
@@ -277,7 +277,7 @@ QBShared.Items = {
 	["burger"]             	     	 = {["name"] = "burger",              			["label"] = "Burger",         			["weight"] = 320,       ["type"] = "item",      ["image"] = "burger.png",     			["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Zonder augurk"},
 	["hotdog"]             	     	 = {["name"] = "hotdog",              			["label"] = "Hotdog",         			["weight"] = 320,       ["type"] = "item",      ["image"] = "hotdog.png",     			["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Warme hond"},
 	["egg_bacon"]             	     = {["name"] = "egg_bacon",              		["label"] = "Eieren en spek",         	["weight"] = 320,       ["type"] = "item",      ["image"] = "egg_bacon.png",     		["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "eitje met spek lekker als ontbijt"},
-	
+
 	-- Dessert
 	["cookie"]                  	 = {["name"] = "cookie",                   		["label"] = "Koekje",              		["weight"] = 100,       ["type"] = "item",      ["image"] = "cookie.png",          		["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Lekker warm koekje"},
 	["muffin"]                 		 = {["name"] = "muffin",                   		["label"] = "Muffin",              		["weight"] = 100,       ["type"] = "item",      ["image"] = "muffin.png",          		["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Vanille muffin met chocolade stukjes"},
@@ -289,7 +289,7 @@ QBShared.Items = {
 	["pancake"]                    	 = {["name"] = "pancake",                     	["label"] = "Pannenkoek",              	["weight"] = 190,       ["type"] = "item",      ["image"] = "pancake.png",         		["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Pannenkoek met siroop en banaan" },
 	["icecream"]                     = {["name"] = "icecream",                     	["label"] = "Ijs",                		["weight"] = 190,       ["type"] = "item",      ["image"] = "icecream.png",         	["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Ben & Jerrys" },
 	["brownie"]                      = {["name"] = "brownie",                     	["label"] = "Brownie",                	["weight"] = 190,       ["type"] = "item",      ["image"] = "brownie.png",         		["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Chocolade Brownie" },
-	
+
 	-- Drink ITEMS
 	['water_bottle'] 				 = {['name'] = 'water_bottle', 			  	  	['label'] = 'Fles water', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'water_bottle.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ["combinable"] = nil,	   ['description'] = 'Zonder kleurstoffen'},
 	['coffee'] 				 		 = {['name'] = 'coffee', 			  	  		['label'] = 'Koffie', 					['weight'] = 200, 		['type'] = 'item', 		['image'] = 'coffee.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ["combinable"] = nil,	   ['description'] = 'Met melk en suiker'},
@@ -326,7 +326,7 @@ QBShared.Items = {
 	['wijn_wit'] 					 = {['name'] = 'wijn_wit', 						['label'] = 'Witte wijn', 				['weight'] = 200, 		['type'] = 'item', 		['image'] = 'wijn_wit.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = false,   ["combinable"] = nil,	   ['description'] = 'Druivensap schijnt gezond te zijn'},
 	['cava'] 						 = {['name'] = 'cava', 							['label'] = 'Cava', 					['weight'] = 200, 		['type'] = 'item', 		['image'] = 'cava.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = false,   ["combinable"] = nil,	   ['description'] = 'Gezelig drankje'},
 	['mojito'] 						 = {['name'] = 'mojito', 						['label'] = 'Mojito', 					['weight'] = 200, 		['type'] = 'item', 		['image'] = 'mojito.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = false,   ["combinable"] = nil,	   ['description'] = 'Met aardbij smaak'},
-	
+
 
 	-- Drugs
 	['joint'] 						 = {['name'] = 'joint', 			  	  		['label'] = 'Joint', 					['weight'] = 0, 		['type'] = 'item', 		['image'] = 'joint.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ["combinable"] = nil,	   ['description'] = 'Sidney zou heel trots op je zijn'},
@@ -533,7 +533,7 @@ QBShared.Items = {
 	["casino_member"] 				 = {["name"] = "casino_member", 			 	["label"] = "Casino Membership", 		["weight"] = 500, 		["type"] = "item", 		["image"] = "casino_member.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino Member Card"},
 	["casino_vip"] 					 = {["name"] = "casino_vip", 			 	 	["label"] = "V.I.P Membership", 		["weight"] = 500, 		["type"] = "item", 		["image"] = "casino_vip.png", 			["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Diamond Casino V.I.P Card"},
 
-	-- qb-metaldetecting 
+	-- qb-metaldetecting
 	["metaldetector"] 				= {["name"] = "metaldetector",				 	["label"] = "Metaaldetector",			["weight"] = 200,	    ["type"] = "item",	    ["image"] = "metaldetector.png",	    ["unique"] = false,	    ["useable"] = true,     ["shouldClose"] = true,	    ["combinable"] = nil,		["description"] = "Metaalpiep detecteren"},
 
 	-- common detectable items
@@ -572,7 +572,7 @@ QBShared.Items = {
 	["chocolate"]  			        = {["name"] = "chocolate",				        ["label"] = "Chocolade",                ["weight"] = 100,		["type"] = "item", 		["image"] = "chocolate.png",		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,	  ["description"] = "Chocolade Fondant"},
 	["bread"] 		 			 	= {["name"] = "bread",       		    		["label"] = "Brood",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "bread.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,	  ["description"] = "Brood"},
 
-	--- cooked stuff 
+	--- cooked stuff
 	["donut_chocsprinkle"] 			= {["name"] = "donut_chocsprinkle", 			["label"] = "Chocolade Bestrooide Donut",["weight"] = 5, 		["type"] = "item", 		["image"] = "donut_chocsprinkle.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	  ["description"] = "Chocolade Bestrooide Donut"},
 	["donut_choc"] 					= {["name"] = "donut_choc", 					["label"] = "Boston Crème Donut", 		 ["weight"] = 5, 		["type"] = "item", 		["image"] = "donut_choc.png", 			["unique"] = false,  	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	  ["description"] = "Boston Crème Donut"},
 	["donut_strawberry"] 			= {["name"] = "donut_strawberry", 				["label"] = "Aardbei Donut", 			["weight"] = 5, 		["type"] = "item", 		["image"] = "donut_strawberry.png", 	["unique"] = false,  	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	  ["description"] = "Aardbei Donut"},
@@ -584,7 +584,7 @@ QBShared.Items = {
 	["timbits"]  					= {["name"] = "timbits",						["label"] = "Timbits",					["weight"] = 200,		["type"] = "item", 		["image"] = "timbits.png",				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	  ["description"] = "Timmies Timbits!"},
 	["croissant_choc"]  			= {["name"] = "croissant_choc",					["label"] = "Chocolade Croissant",		["weight"] = 200,		["type"] = "item", 		["image"] = "croissant_choc.png",		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	  ["description"] = "Chocolade Croissant"},
 	["croissant_cheese"]  			= {["name"] = "croissant_cheese",				["label"] = "Kaas Croissant",			["weight"] = 200,		["type"] = "item", 		["image"] = "croissant_cheese.png",		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	  ["description"] = "Kaas Croissant"},
-	--- Sandwiches 
+	--- Sandwiches
 	["bagel_belt"] 					= {["name"] = "bagel_belt", 					["label"] = "BELT Bagel", 				["weight"] = 150, 		["type"] = "item", 		["image"] = "bagel_belt.png", 			["unique"] = false,  	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "BELT (Bacon, Egg, Lettuce and Tomato) Bagel"},
 	["croque"] 						= {["name"] = "croque", 			 	  		["label"] = "Croque Monsieur", 			["weight"] = 150, 		["type"] = "item", 		["image"] = "croque.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Croque Monsieur"},
 	["croque_madame"] 				= {["name"] = "croque_madame", 			 	  	["label"] = "Croque Madame", 			["weight"] = 150, 		["type"] = "item", 		["image"] = "croque_madame.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Croque Madame"},
@@ -593,7 +593,7 @@ QBShared.Items = {
 	["sandwich_italian"] 			= {["name"] = "sandwich_italian", 			 	["label"] = "Extreme Italian", 			["weight"] = 150, 		["type"] = "item", 		["image"] = "sandwich_italian.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Extreme Italian"},
 	["sandwich_hamcheese"] 			= {["name"] = "sandwich_hamcheese", 			["label"] = "Ham and Swiss", 			["weight"] = 150, 		["type"] = "item", 		["image"] = "sandwich_hamcheese.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Ham and Swiss"},
 	["burger_chicken"] 				= {["name"] = "burger_chicken", 			 	["label"] = "Chrispy Chicken Club", 	["weight"] = 150, 		["type"] = "item", 		["image"] = "burger_chicken.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Chicken Burger"},
-	--- Drinks 
+	--- Drinks
 	["smoothie_fruit"] 				= {["name"] = "smoothie_fruit", 				["label"] = "Fruit Smoothie", 			["weight"] = 150, 		["type"] = "item", 		["image"] = "smoothie_fruit.png", 		["unique"] = false,  	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Fruit Smoothie"},
 	["smoothie_lemon"] 				= {["name"] = "smoothie_lemon", 			 	["label"] = "Citroen Smoothie", 		["weight"] = 150, 		["type"] = "item", 		["image"] = "smoothie_lemon.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Citroen Smoothie"},
 	["coffee_iced"] 				= {["name"] = "coffee_iced", 					["label"] = "Ijskoffie", 				["weight"] = 150, 		["type"] = "item", 		["image"] = "coffee_iced.png", 			["unique"] = false,  	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,	   ["description"] = "Ijskoffie"},
@@ -647,7 +647,7 @@ QBShared.Items = {
 	["rollingpaper"] 				 = {["name"] = "rollingpaper", 			 	  	["label"] = "Vloeitjes voor Joints",	["weight"] = 450, 		["type"] = "item", 		["image"] = "rollingpaper.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Vloei voor Joints"},
 	["bong"] 			         	 = {["name"] = "bong", 			      			["label"] = "Waterpijp", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "bong.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Waterpijp"},
 	["weedscissors"] 			     = {["name"] = "weedscissors", 			      	["label"] = "Wietschaar", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "weedscissors.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Wietschaar"},
-	
+
 	-- um-taco
 	["taco"] 			 		 	 = {["name"] = "taco", 							["label"] = "Taco",                     ["weight"] = 3000,      ["type"] = "item",      ["image"] = "taco.png",                 ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Taco."},
 	["taco_bread"] 			         = {["name"] = "taco_bread", 				    ["label"] = "Taco Brood",               ["weight"] = 1000,      ["type"] = "item",      ["image"] = "taco_bread.png",           ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Taco Brood"},
@@ -702,12 +702,12 @@ QBShared.Items = {
 	["wheelchair"] 				     = {["name"] = "wheelchair", 			 	 	["label"] = "Rolstoel", 		    	["weight"] = 500, 		["type"] = "item", 		["image"] = "wheelchair.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,  ["description"] = "Kreupele bende"},
 
 	-- qb-policebadge
-	["specialbadge"] 				 = {["name"] = "specialbadge", 			  		["label"] = "Politie badge", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "specialbadge.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Speciale badge van wetshandhavers"},
+	["specialbadge"] 				 = {["name"] = "specialbadge", 			  		["label"] = "Politie badge", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "specialbadge.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,		["combinable"] = nil,   ["description"] = "Speciale badge van wetshandhavers"},
 
 	-- qb-bitmining
-	["standard_cpu"] 			 	 = {["name"] = "standard_cpu", 			  		["label"] = "Standard Cpu", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "standard_cpu.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},
-	["e2_cpu"] 			 	 	 	 = {["name"] = "e2_cpu", 			  			["label"] = "E2", 						["weight"] = 1000, 		["type"] = "item", 		["image"] = "e2_cpu.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},
-	["quantum_cpu"] 			 	 = {["name"] = "quantum_cpu", 			  		["label"] = "Quantum", 					["weight"] = 1000, 		["type"] = "item", 		["image"] = "quantum_cpu.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},
+	["standard_cpu"] 			 	 = {["name"] = "standard_cpu", 			  		["label"] = "Standard Cpu", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "standard_cpu.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,		["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},
+	["e2_cpu"] 			 	 	 	 = {["name"] = "e2_cpu", 			  			["label"] = "E2", 						["weight"] = 1000, 		["type"] = "item", 		["image"] = "e2_cpu.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,		["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},
+	["quantum_cpu"] 			 	 = {["name"] = "quantum_cpu", 			  		["label"] = "Quantum", 					["weight"] = 1000, 		["type"] = "item", 		["image"] = "quantum_cpu.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,		["combinable"] = nil,   ["description"] = "Sometimes you'd want everything to burn.."},
 
 
 }
