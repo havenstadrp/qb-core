@@ -424,4 +424,16 @@ QBShared.Jobs = {
             },
         }
     },
+
+    ['lumberjack'] = {
+		label = 'Houthakker',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Houthakker',
+                payment = 50,
+            },
+        }
+	},
 }
